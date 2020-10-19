@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="creddebt <= 0.73\nmse = 1.577\nsamples = 3500\nvalue = 5.773"] ;
+1 [label="commutemotorcycle_1 <= 0.5\nmse = 1.52\nsamples = 1563\nvalue = 5.46"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="equipten <= 479.625\nmse = 1.476\nsamples = 1441\nvalue = 5.362"] ;
+1 -> 2 ;
+3 [label="mse = 1.338\nsamples = 1140\nvalue = 5.189"] ;
+2 -> 3 ;
+4 [label="mse = 1.456\nsamples = 301\nvalue = 6.016"] ;
+2 -> 4 ;
+5 [label="birthmonth_February <= 0.5\nmse = 0.582\nsamples = 122\nvalue = 6.619"] ;
+1 -> 5 ;
+6 [label="mse = 0.452\nsamples = 116\nvalue = 6.708"] ;
+5 -> 6 ;
+7 [label="mse = 0.054\nsamples = 6\nvalue = 4.917"] ;
+5 -> 7 ;
+8 [label="tollten <= 629.7\nmse = 1.481\nsamples = 1937\nvalue = 6.026"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="card2benefit_3 <= 0.5\nmse = 1.532\nsamples = 1275\nvalue = 5.812"] ;
+8 -> 9 ;
+10 [label="mse = 1.303\nsamples = 853\nvalue = 6.079"] ;
+9 -> 10 ;
+11 [label="mse = 1.562\nsamples = 422\nvalue = 5.274"] ;
+9 -> 11 ;
+12 [label="birthmonth_November <= 0.5\nmse = 1.126\nsamples = 662\nvalue = 6.437"] ;
+8 -> 12 ;
+13 [label="mse = 0.88\nsamples = 589\nvalue = 6.582"] ;
+12 -> 13 ;
+14 [label="mse = 1.555\nsamples = 73\nvalue = 5.262"] ;
+12 -> 14 ;
+}
